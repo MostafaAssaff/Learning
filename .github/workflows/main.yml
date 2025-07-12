@@ -1,0 +1,11 @@
+name : Github Action Trial
+on:  
+  push:
+    branches:
+    - main
+jobs:
+  example-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print this welcome message
+        run: echo "Hello Mostafa how you doin !"
