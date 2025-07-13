@@ -10,4 +10,6 @@ jobs:
     steps:
       - name: Say hello to the user 
         run: echo "Hello From Github Actions"
+      - name: asking about his health 
+        run: echo "3amel eh ya hamam "
         
