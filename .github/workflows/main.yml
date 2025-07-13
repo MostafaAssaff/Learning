@@ -1,0 +1,13 @@
+name: Github Actions trial  
+on:
+  push:
+    branches:
+    - main
+jobs:
+  example-job:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Say hello to the user 
+        run: echo "Hello From Github Actions"
+        
